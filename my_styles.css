@@ -1,0 +1,17 @@
+.images {
+	width: 30%;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.first, .second, .third, .four{
+	min-width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+

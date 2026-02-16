@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en_US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Задание</title>
+        <link rel="stylesheet" href="./my_styles.css">
+    </head>
+    <body>
+        <div class="first" id="first">
+		    <h1>Поход на заброшку</h1>
+			<img class="images" src="./images/first.png">
+			<div class="buttons">
+				<a class="button" href="#second">Начать</a>
+			</div>
+		</div>
+		
+		<div class="second" id="second">
+		    <img class="images" src="./images/second.png">
+			<div class="message">
+				<p>Сегодня тебе надо найти проклятую книгу в этом ужасающем доме.</p>
+				<p>Мне кажется, что на входе кто-то есть... там есть лестница на улице, которая ведёт на второй этаж</p>			
+				<p>Твои действия?</p>
+			</div>
+			<div class="buttons">
+				<a class="button" href="#third">Ввойти через дверь</a>
+				<a class="button" href="#four">Подняться по лестнице</a>
+			</div>
+		</div>
+		
+		<div class="third" id="third">
+			<img class="images" src="./images/lose.png">
+			<div class="message">
+				<p>тебя поймал моньяк.Ты проиграл</p>
+			</div>
+			<div class="buttons">
+				<a class="button" href="#first">Вернуться в начало</a>
+			</div>
+		</div>
+		
+		<div class="four" id="four">
+			<img class="images" src="./images/win.png">
+			<div class="message">
+				<p>молодец!Ты забрал книгу и ушол.</p>
+			</div>
+			<div class="buttons">
+				<a class="button" href="#first">Вернуться в начало</a>
+			</div>
+        </div>
+
+    </body>
+</html>
